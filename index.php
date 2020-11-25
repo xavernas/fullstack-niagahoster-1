@@ -3,14 +3,7 @@
 <head>
 <!-- For CSS Used, using Bootstrap 41 -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<style>
-.nav-top {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    justify-content: flex-end;
-}
-</style>
+<link rel="stylesheet" href="niagahoster-style.css">
 </head>
 <body>
 
@@ -19,10 +12,10 @@
     <div class="top-navbar-1">
         <ul class="nav-top d-none d-xl-flex">
             <li>
-            <a href="tel:0274-2885822" aria-label="Telephone" class="nh-navbar__subnav-item-link">
-                <i class="nh-navbar__subnav-item-icon  fas fa-phone"></i>
-                0274-2885822
-            </a>
+                <a href="tel:0274-2885822" aria-label="Telephone" class="nh-navbar__subnav-item-link">
+                    <i class="nh-navbar__subnav-item-icon  fas fa-phone"></i>
+                    0274-2885822
+                </a>
             </li>
             <li>
                 <a href="javascript:void(0)" onclick="Intercom('show');" aria-label="Live Chat" class="nh-navbar__subnav-item-link">
@@ -39,13 +32,73 @@
         </ul>
     </div>
     <!-- Menu utama -->
-    <div class="content-1 row">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="frontend-test/assets/png/niagahoster-logo-300x72.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Hosting</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Domain</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Server</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Website</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Afiliasi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Promo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pembayaran</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontak</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li> -->
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li> -->
+            </ul>
+            <!--
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+        </div>
+    </nav>
+    <!-- First Content: Title -->
+    <div class="content-first row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            PHP Hosting
-            <br>
-            Cepat, Handal, penuh dengan modul PHP yang anda butuhkan.
-            <br>
-            <ul>
+            <p class="content-first-title-1">
+                PHP Hosting
+            </p>
+            <p class="content-first-subtitle-1">
+                Cepat, Handal, penuh dengan modul PHP yang anda butuhkan.
+            </p>
+            <ul class="content-first-list-marker">
                 <li>
                     Solusi PHP untuk peforma query yang lebih cepat
                 </li>
@@ -61,165 +114,234 @@
             </ul>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <img>Tester
+            <img src="frontend-test/assets/svg/illustration banner PHP hosting-01.svg">
         </div>
     </div>
+    <!-- End of First Content -->
+    <!-- Second Content: Post-Title -->
     <!-- Logo Zenguard, composer Ion -->
-    <div class="content-2 row">
-        <!-- Space for the initial content -->
-        <div class="col">
-        </div>
-        <!--  -->
-        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <img>
+    <div class="content-second">
+        <table>
+            <tr>
+                <td>
+                    <img src="frontend-test/assets/svg/icon PHP Hosting_zendguard.svg">
+                </td>
+                <td>
+                    <img src="frontend-test/assets/svg/icon PHP Hosting_composer.svg">
+                </td>
+                <td>
+                    <img src="frontend-test/assets/svg/icon PHP Hosting_ioncube.svg">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    PHP Zend Guard Loader
+                </td>
+                <td>
+                    PHP Composer
+                </td>
+                <td>
+                    PHP ionCube Loader
+                </td>
+            </tr>
+        </table>
+            <!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <img src="frontend-test/assets/svg/icon PHP Hosting_zendguard.svg">
                 PHP Zend Guard Loader
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <img>
+                <img src="frontend-test/assets/svg/icon PHP Hosting_composer.svg">
                 PHP Composer
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <img>
+                <img src="frontend-test/assets/svg/icon PHP Hosting_ioncube.svg">
                 PHP ionCube Loader
-            </div>
-        </div>
-        <!-- Space for the initial content -->
-        <div class="col">
-        </div>
-        <!--  -->
+            </div> -->
+        
+        
     </div>
-    <!-- Judul Paket Hosting -->
-    <div class="content-3 row">
+    <!-- Third Content -->
+    <div class="content-third row">
         <div class="col-12">
-            Paket Hosting Singapura yang Tepat
-            <br>
+            <p class="content-third-title-1">
+            <b>Paket Hosting Singapura yang Tepat</b>
+            </p>
+            <p class="content-third-subtitle-1">
             Diskon 40% + Domain dan SSL Gratis untuk Anda.
+            </p>
         </div>
     </div>
-    <!-- Isi Paket Hosting -->
-    <div class="content-4">
-        <table align=center>
-            <tr>
-                <td>
-                    Bayi
-                </td>
-                <td>
-                    Pelajar
-                </td>
-                <td>
-                    Personal
-                </td>
-                <td>
-                    Bisnis
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <del>Rp. 19.900<del>
-                </td>
-                <td>
-                    <del>Rp. 46.900<del>
-                </td>
-                <td>
-                    <del>Rp. 58.900<del>
-                </td>
-                <td>
-                    <del>Rp. 109.900<del>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Rp. 14.900 / bln
-                </td>
-                <td>
-                    Rp. 23.450 / bln
-                </td>
-                <td>
-                    Rp. 38.900 / bln
-                </td>
-                <td>
-                    Rp. 65.900 / bln
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    938 pengguna terdaftar
-                </td>
-                <td>
-                    4.168 pengguna terdaftar
-                </td>
-                <td>
-                    10.017 pengguna terdaftar
-                </td>
-                    3.552 pengguna terdaftar
-                <td>
-                </td>
-            </tr>
-            <!-- Benefit Each Package -->
-            <tr>
-                <td align=center>
-                    0.5X Resource Power             <br>
-                    500 MB Disk Space               <br>
-                    Unlimited Bandwidth             <br>
-                    Unlimited Databases             <br>
-                    1 Domain                        <br>
-                    Instant Backup                  <br>
-                    Unlimited SSL Gratis Selamanya  <br>
-                    <button>
-                    Pilih sekarang!
-                    </button>
-                </td>
-                <td align=center>
-                    1X Resource Power               <br>
-                    Unlimited Disk Space            <br>
-                    Unlimited Bandwidth             <br>
-                    Unlimited POP3 Email            <br>
-                    Unlimited Databases             <br>
-                    10 Addon Domains                <br>
-                    Domain Gratis Selamanya         <br>
-                    Instant Backup                  <br>
-                    Unlimited SSL Gratis Selamanya  <br>
-                    <button>
-                    Pilih sekarang!
-                    </button>
-                </td>
-                <td align=center>
-                    2X Resource Power               <br>
-                    Unlimited Disk Space            <br>
-                    Unlimited Bandwidth             <br>
-                    Unlimited POP3 Email            <br>
-                    Unlimited Databases             <br>
-                    Unlimited Addon Domains         <br>
-                    Instant Backup                  <br>
-                    Domain Gratis Selamanya         <br>
-                    Unlimited SSL Gratis Selamanya  <br>
-                    Private Name Server  <br>
-                    SpamAssasin Mail Protection  <br>
-                    <button>
-                    Pilih sekarang!
-                    </button>
-                </td>
-                <td align=center>
-                    3X Resource Power               <br>
-                    Unlimited Disk Space            <br>
-                    Unlimited Bandwidth             <br>
-                    Unlimited POP3 Email            <br>
-                    Unlimited Databases             <br>
-                    Unlimited Addon Domains         <br>
-                    Magic Auto Backup & Restore     <br>
-                    Domain Gratis Selamanya         <br>
-                    Unlimited SSL Gratis Selamanya  <br>
-                    Private Name Server             <br>
-                    Prioritas Layanan Support       <br>
-                    (Icon star 5x)                  <br>
-                    SpamExpert Pro Mail Protection  <br>
-                    <button>
-                    Diskon 40%
-                    </button>
-                </td>
-            </tr>
-        </table>    
+    <!-- Fourth Content -->
+    <div class="content-fourth row">
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+            <table>
+                <tr>
+                    <td class="content-fourth-title-package">
+                        Bayi
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content-fourth-old-price">
+                        <del>Rp. 19.900<del>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content-fourth-new-price">
+                        Rp. <span>14</span>.900 / bln
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content-fourth-user-register">
+                        938 pengguna terdaftar
+                    </td>
+                </tr>
+                    <!-- Benefit Each Package -->
+                <tr>
+                    <td class="content-fourth-detail">
+                        0.5X Resource Power             <br>
+                        500 MB Disk Space               <br>
+                        Unlimited Bandwidth             <br>
+                        Unlimited Databases             <br>
+                        1 Domain                        <br>
+                        Instant Backup                  <br>
+                        Unlimited SSL Gratis Selamanya  <br>
+                        <button>
+                        Pilih sekarang!
+                        </button>
+                    </td>
+                </tr>
+            </table>   
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+            <table>
+                <tr>
+                    <td class="content-fourth-title-package">
+                        Pelajar
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content-fourth-old-price">
+                        <del>Rp. 46.900<del>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content-fourth-new-price">
+                        Rp. <span>23</span>.450 / bln
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content-fourth-user-register">
+                        4.168 pengguna terdaftar
+                    </td>
+                </tr>
+                <!-- Benefit Each Package -->
+                <tr>
+                    <td class="content-fourth-detail">
+                        1X Resource Power               <br>
+                        Unlimited Disk Space            <br>
+                        Unlimited Bandwidth             <br>
+                        Unlimited POP3 Email            <br>
+                        Unlimited Databases             <br>
+                        10 Addon Domains                <br>
+                        Domain Gratis Selamanya         <br>
+                        Instant Backup                  <br>
+                        Unlimited SSL Gratis Selamanya  <br>
+                        <button>
+                        Pilih sekarang!
+                        </button>
+                    </td>
+                </tr>
+            </table>   
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+            <table >
+                <tr>
+                    <td class="content-fourth-title-package">
+                        Personal
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content-fourth-old-price">
+                        <del>Rp. 58.900<del>
+                    </td>
+                </tr>
+                <tr >
+                    <td class="content-fourth-new-price">
+                        Rp. <span>38</span>.900 / bln
+                    </td>
+                </tr>
+                <tr >
+                    <td class="content-fourth-user-register">
+                        10.017 pengguna terdaftar
+                    </td>
+                </tr>
+                <!-- Benefit Each Package -->
+                <tr>
+                    <td class="content-fourth-detail">
+                        2X Resource Power               <br>
+                        Unlimited Disk Space            <br>
+                        Unlimited Bandwidth             <br>
+                        Unlimited POP3 Email            <br>
+                        Unlimited Databases             <br>
+                        Unlimited Addon Domains         <br>
+                        Instant Backup                  <br>
+                        Domain Gratis Selamanya         <br>
+                        Unlimited SSL Gratis Selamanya  <br>
+                        Private Name Server  <br>
+                        SpamAssasin Mail Protection  <br>
+                        <button>
+                        Pilih sekarang!
+                        </button>
+                    </td>
+                </tr>
+            </table>   
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+            <table>
+                <tr>
+                    <td class="content-fourth-title-package">
+
+                        Bisnis
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content-fourth-old-price">
+                        <del>Rp. 109.900<del>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content-fourth-new-price">
+                        Rp. <span>65</span>.900 / bln
+                    </td>
+                </tr>
+                <tr>
+                    <td class="content-fourth-user-register">
+                        3.552 pengguna terdaftar
+                    </td>
+                </tr>
+                <!-- Benefit Each Package -->
+                <tr >
+                    <td class="content-fourth-detail">
+                        3X Resource Power               <br>
+                        Unlimited Disk Space            <br>
+                        Unlimited Bandwidth             <br>
+                        Unlimited POP3 Email            <br>
+                        Unlimited Databases             <br>
+                        Unlimited Addon Domains         <br>
+                        Magic Auto Backup & Restore     <br>
+                        Domain Gratis Selamanya         <br>
+                        Unlimited SSL Gratis Selamanya  <br>
+                        Private Name Server             <br>
+                        Prioritas Layanan Support       <br>
+                        (Icon star 5x)                  <br>
+                        SpamExpert Pro Mail Protection  <br>
+                        <button>
+                        Diskon 40%
+                        </button>
+                    </td>
+                </tr>
+            </table>   
+        </div> 
     </div>
     <!-- PHP Advantage and Features -->
     <div class="content-4">
