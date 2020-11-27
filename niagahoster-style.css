@@ -1,5 +1,6 @@
 body{
-    font-family: "NunitoSansBold",sans-serif
+    font-family: "NunitoSansBold",sans-serif;
+    font-size: 14px;
 }
 .nav-top {
     margin: 0;
@@ -94,6 +95,125 @@ td.content-fourth-detail{
 }
 td.content-fourth-detail>button{
     text-align: center;
+    font-size: 1vw;
+    width: 10vw;
+    height: 2vw;
+    border-radius: 1vw;
+    padding:0;
+    margin-top:2vw;
 }
 
 /* End of Fourth Content */
+/* Fifth Content */
+.content-fifth{
+    margin:5vw 0;
+}
+
+p.content-fifth-title{
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 1vw;
+    text-align: center;
+}
+
+/* End of Fifth Content */
+.divider{
+    border: 1px solid;
+    border-image: radial-gradient(#000, #fff) 1;
+    width:10vw;
+    margin:auto;
+}
+/* Sixth Content */
+.content-sixth{
+    margin:5vw 0;
+}
+
+.content-sixth-picture{
+    max-width: 25vw;
+    align-content: center;
+
+}
+/* End of Sixth Content */
+/* Seventh content */
+.content-seventh{
+    margin:5vw 0;
+}
+p.content-seventh-title{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 34px;
+}
+button.content-seventh-button{
+    text-align: center;
+    font-size: 1vw;
+    width: 10vw;
+    height: 2vw;
+    border-radius: 1vw;
+    padding:0;
+    margin-top:2vw;
+
+}
+/* End of Seventh Content */
+/* Eighth content */
+.content-eighth{
+    margin:5vw 0;
+}
+p.content-eighth-title{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 34px;
+    text-align: center;
+}
+.content-eighth-table{
+    font-size: 12px;
+    color: #000;
+    text-align: left;
+}
+.content-eighth-each-column{
+    margin: 3vw;
+}
+button.content-eighth-button{
+    text-align: center;
+    font-size: 1vw;
+    width: 10vw;
+    height: 2vw;
+    border-radius: 1vw;
+    padding:0;
+    margin-top:2vw;
+}
+
+/* End of Eighth content */
+/* Ninth Content */
+.content-ninth{
+    margin:5vw 0;
+}
+
+button.content-ninth-button{
+    text-align: center;
+    font-size: 1vw;
+    width: 10vw;
+    height: 2vw;
+    border-radius: 1vw;
+    padding:0;
+    margin-top:2vw;
+
+}
+/* End of Ninth Content*/
+/* First Footer */
+.footer-first{
+    background-color:gray;
+    padding: 1.75vw 0;
+}
+/* End of First Footer */
+
+/* Second Footer */
+.footer-second{
+    background-color:lightskyblue;
+    padding: 2.25vw 0;
+}
+/* End of Second Footer */
+/* Third Footer */
+.footer-third{
+    background-color:darkgrey;
+}
+/* End of Third Footer */
