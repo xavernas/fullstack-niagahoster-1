@@ -2,10 +2,15 @@
 <html>
 <head>
 <!-- For CSS Used, using Bootstrap 41 -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+<!-- Downloaded script -->
+<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+<script src="bootstrap/jquery-3.3.1.slim.min.js" ></script>
+<script src="bootstrap/popper.min.js" ></script>
+<script src="bootstrap/bootstrap.min.js"></script> 
 <link rel="stylesheet" href="niagahoster-style.css">
 </head>
 <body>
@@ -126,13 +131,13 @@
     <div class="content-second">
         <table>
             <tr>
-                <td>
+                <td align=center>
                     <img src="frontend-test/assets/svg/icon PHP Hosting_zendguard.svg">
                 </td>
-                <td>
+                <td align=center>
                     <img src="frontend-test/assets/svg/icon PHP Hosting_composer.svg">
                 </td>
-                <td>
+                <td align=center>
                     <img src="frontend-test/assets/svg/icon PHP Hosting_ioncube.svg">
                 </td>
             </tr>
@@ -404,8 +409,9 @@
         <br>
         <div class=row>
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <img src="frontend-test/assets/svg/icon PHP Hosting_PHP Semua Versi.svg" class="content-sixth-picture">
                 <p align=center>
+                <img src="frontend-test/assets/svg/icon PHP Hosting_PHP Semua Versi.svg" class="content-sixth-picture">
+                <br>
                 PHP Semua Versi
                 </p>
                 <br>
@@ -414,8 +420,9 @@
                 </p>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <img src="frontend-test/assets/svg/icon PHP Hosting_My SQL.svg" class="content-sixth-picture">
                 <p align=center>
+                <img src="frontend-test/assets/svg/icon PHP Hosting_My SQL.svg" class="content-sixth-picture">
+                <br>
                 MySql Versi 5.6
                 </p>
                 <br>
@@ -424,8 +431,9 @@
                 </p>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <img src="frontend-test/assets/svg/icon PHP Hosting_CPanel.svg" class="content-sixth-picture">
                 <p align=center>
+                <img src="frontend-test/assets/svg/icon PHP Hosting_CPanel.svg" class="content-sixth-picture">
+                <br>
                 Panel Hosting cPanel
                 </p>
                 <br>
@@ -434,8 +442,9 @@
                 </p>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <img src="frontend-test/assets/svg/icon PHP Hosting_garansi uptime.svg" class="content-sixth-picture">
                 <p align=center>
+                <img src="frontend-test/assets/svg/icon PHP Hosting_garansi uptime.svg" class="content-sixth-picture">
+                <br>
                 Garansi Uptime 99.9%
                 </p>
                 <br>
@@ -444,8 +453,9 @@
                 </p>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <img src="frontend-test/assets/svg/icon PHP Hosting_InnoDB.svg" class="content-sixth-picture">
                 <p align=center>
+                <img src="frontend-test/assets/svg/icon PHP Hosting_InnoDB.svg" class="content-sixth-picture">
+                <br>
                 Database InnoDB Unlimited
                 </p>
                 <br>
@@ -454,8 +464,9 @@
                 </p>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <img src="frontend-test/assets/svg/icon PHP Hosting_My SQL remote.svg" class="content-sixth-picture">
                 <p align=center>
+                <img src="frontend-test/assets/svg/icon PHP Hosting_My SQL remote.svg" class="content-sixth-picture">
+                <br>
                 Wildcard Remote MySQL
                 </p>
                 <br>
@@ -491,11 +502,13 @@
                 <p>
                     Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis
                 </p>
-                <button class="btn btn-primary content-seventh-button">
-                    Pilih Hoting anda
-                </button>
+                <p align=center>
+                    <button class="btn btn-primary content-seventh-button">
+                        Pilih Hoting anda
+                    </button>
+                </p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-0 col-xs-0">
+            <div class="col-lg-6 col-md-6 d-none d-md-block">
                 <img src="frontend-test/assets/svg/illustration banner support laravel hosting.svg">
             </div>
         </div>
@@ -644,6 +657,7 @@
 <!-- Second Footer : Contact -->
 <div class="footer-second">
     <div class="container">
+        <p>
         Perlu BANTUAN? Hubungi Kami : 0274-5305505 | 
         <button>Live chat</button>
     </div>
@@ -651,10 +665,10 @@
 <!-- Third Footer : Main  Menu -->
 <div class="footer-third">
     <div class=container>
-        <div class=row>
+        <div class="row first-footer-row">
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 HUBUNGI KAMI
-                <br><br>
+                <br>
                 <br>0274-5305505 
                 <br>Senin - Minggu
                 <br>24 Jam Nonstop
@@ -698,6 +712,8 @@
                 <br><a>Cara Pembayaran</a>
                 
             </div>
+        </div>
+        <div class="row second-footer-row">
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 TENTANG KAMI
                 <br>

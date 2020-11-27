@@ -129,7 +129,7 @@ p.content-fifth-title{
 }
 
 .content-sixth-picture{
-    max-width: 25vw;
+    max-width: 20vw;
     align-content: center;
 
 }
@@ -201,7 +201,7 @@ button.content-ninth-button{
 /* End of Ninth Content*/
 /* First Footer */
 .footer-first{
-    background-color:gray;
+    background-color:#D9D9D9;
     padding: 1.75vw 0;
 }
 /* End of First Footer */
@@ -215,5 +215,11 @@ button.content-ninth-button{
 /* Third Footer */
 .footer-third{
     background-color:darkgrey;
+}
+.first-footer-row{
+    padding: 1.5vw 0;
+}
+.second-footer-row {
+    padding: 1.5vw 0;
 }
 /* End of Third Footer */
